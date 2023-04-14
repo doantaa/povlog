@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.side-container {
+    width: 572px;
+    height: 1024px;
+    background-color: #D94336;
+    padding-left: 65px;
+}
+
+.icon {
+    margin-top: 79px;
+    transform: scale(2.9); 
+    color: white;
+}
+
+h1 {
+    margin-top: 36px;
+    color: white;
+    font-size: 43px;
+}
+
+.navbar {
+    background-color: #D94336;
+}
+
+.form-label {
+    color: white;
+        
+}
