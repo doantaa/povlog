@@ -29,6 +29,10 @@ body {
     background-color: #D94336;
 }
 
+.form-row {
+    max-width: 100%;
+}
+
 form {
     width: 366px;
     margin-left: 65px;
@@ -84,4 +88,40 @@ form label {
     width: 230px;
 }
 
+.second-col {
+    margin-left: 100px;
+    /* background-color: rgba(255, 0, 0, 0.3); */
+}
 
+.right-container {
+    max-width: 764px;
+}
+
+.item-card {
+    padding: 5px 20px;
+}
+
+.item-detail {
+    margin: auto;
+}
+
+.item-amount {
+    margin: auto;
+}
+
+.submit-btn {
+    max-width: 764px;
+    color: white;
+    background-color: #3AA782;
+    padding: 24px 48px;
+    border-radius: 18px;
+    font-weight: 600;
+}
+
+.submit-btn:hover {
+    max-width: 764px;
+    color: #3AA782;
+    font-weight: 600;
+    border: 3px solid #3AA782;
+    padding: 22px 46px;
+}
