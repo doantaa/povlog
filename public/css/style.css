@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* STYLES START HERE */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.side-container {
+    width: 572px;
+    height: 1024px;
+    background-color: #D94336;
+}
+
+.icon {
+    margin-top: 79px;
+    margin-left: 80px;
+    transform: scale(2.9); 
+    color: white;
+}
+
+.form-title {
+    margin-top: 36px;
+    margin-left: 65px;
+    margin-bottom: 71px;
+    color: white;
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #D94336;
+}
+
+.form-row {
+    max-width: 100%;
+}
+
+form {
+    width: 366px;
+    margin-left: 65px;
+    color: white;
+    font-size: 23px;
+}
+
+form label {
+    font-weight: 400;
+    border-radius: 0;
+}
+
+/* kalo dibiarin */
+.form-control {
+    color: white;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) ;
+    box-shadow: none;
+}
+
+/* kalo diketik */
+.form-control:focus {
+    color: white;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid white ;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    border: none;
+    font-size: 20px;
+    box-shadow: none;
+}
+
+.input-group-addon {
+    color: white;
+    margin-left: 50px;
+}
+
+.form-tanggal .form-control {
+    width: 230px;
+}
+
+.second-col {
+    margin-left: 100px;
+    /* background-color: rgba(255, 0, 0, 0.3); */
+}
+
+.right-container {
+    max-width: 764px;
+}
+
+.item-card {
+    padding: 5px 20px;
+}
+
+.item-detail {
+    margin: auto;
+}
+
+.item-amount {
+    margin: auto;
+}
+
+.submit-btn {
+    max-width: 764px;
+    color: white;
+    background-color: #3AA782;
+    padding: 24px 48px;
+    border-radius: 18px;
+    font-weight: 600;
+}
+
+.submit-btn:hover {
+    max-width: 764px;
+    color: #3AA782;
+    font-weight: 600;
+    border: 3px solid #3AA782;
+    padding: 22px 46px;
+}
